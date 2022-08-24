@@ -7,7 +7,7 @@
  *
  * Return: pointer to the newly added node.
  */
-listint_t insert_node(listint_t **head, int number)
+listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *prev, *current. *new;
 
